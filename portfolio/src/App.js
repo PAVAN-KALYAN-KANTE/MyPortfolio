@@ -1,12 +1,7 @@
-import Navbar from "./components/Navbar";
+import HomeScreen from "./HomeScreen";
 
 function App() {
-  return (
-    <div className="flex ">
-      <Navbar />
-      <div className="bg-slate-900 w-full">Hello</div>
-    </div>
-  );
+  return <HomeScreen />;
 }
 
 export default App;
