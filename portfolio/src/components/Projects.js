@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <>
+    <div id="Projects">
       <div className="p-14 my-3 ">
         <div className="font-thin text-xl mb-3">PROJECTS</div>
         <div className="flex justify-around flex-wrap">
@@ -18,9 +18,15 @@ function Projects() {
               Reactjs, React-redux,Firebase
             </h2>
             <h3 className="text-center">are technologies been used</h3>
-            <h4 className="text-center hover:text-4xl hover:text-fuchsia-700 text-red-700">
-              PROJECT
-            </h4>
+            <a
+              href="https://github.com/PAVAN-KALYAN-KANTE/Netflix_clone-ReactJs"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <h4 className="text-center hover:text-4xl hover:text-fuchsia-700 text-red-700 hover:cursor-pointer">
+                PROJECT
+              </h4>
+            </a>
           </div>
           <div className="w-96 p-5  bg-slate-200 mt-2 mb-6 shadow-xl border-b-2 border-pink-600">
             <h1 className="text-center m-4">NEWS AND WEATHER REPORTS</h1>
@@ -34,9 +40,15 @@ function Projects() {
               Reactjs,Tailwind CSS
             </h2>
             <h3 className="text-center">are technologies been used</h3>
-            <h4 className="text-center hover:text-4xl hover:text-fuchsia-700 text-red-700">
-              PROJECT
-            </h4>
+            <a
+              href="https://github.com/PAVAN-KALYAN-KANTE/NewsApp-Reactjs"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <h4 className="text-center hover:text-4xl hover:text-fuchsia-700 text-red-700 hover:cursor-pointer">
+                PROJECT
+              </h4>
+            </a>
           </div>
 
           <div className="w-96 p-5  bg-slate-200 mt-2 mb-6 shadow-xl border-b-2 border-purple-500">
@@ -50,9 +62,15 @@ function Projects() {
               Reactjs, ExpressJS , MongoDB, Nodejs
             </h2>
             <h3 className="text-center">are technologies been used</h3>
-            <h4 className="text-center hover:text-4xl hover:text-fuchsia-700 text-red-700">
-              PROJECT
-            </h4>
+            <a
+              href="https://github.com/Bug-Smashers/LoanApp"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <h4 className="text-center hover:text-4xl hover:text-fuchsia-700 text-red-700 hover:cursor-pointer">
+                PROJECT
+              </h4>
+            </a>
           </div>
 
           <div className="w-96 p-5  bg-slate-200 mt-2 mb-6 shadow-xl border-b-2 border-green-600">
@@ -66,13 +84,13 @@ function Projects() {
               Tensorflow, Opencv2, Flask
             </h2>
             <h3 className="text-center">are technologies been used</h3>
-            <h4 className="text-center hover:text-4xl hover:text-fuchsia-700 text-red-700">
+            <h4 className="text-center hover:text-4xl hover:text-fuchsia-700 text-red-700 hover:cursor-pointer">
               PROJECT
             </h4>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

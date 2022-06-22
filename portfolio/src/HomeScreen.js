@@ -8,9 +8,9 @@ import Projects from "./components/Projects";
 function HomeScreen() {
   return (
     <>
-      <div className="xl:flex bg-slate-100">
+      <div className="xl:flex bg-slate-100 ">
         <Navbar />
-        <div className="xl:flex-1 xl:ml-96">
+        <div className="xl:flex-1 h-screen overflow-y-auto">
           <Carousel />
           <About />
           <Education />

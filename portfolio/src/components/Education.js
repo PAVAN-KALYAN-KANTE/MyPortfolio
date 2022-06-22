@@ -2,7 +2,7 @@ import React from "react";
 
 function Education() {
   return (
-    <>
+    <div id="Education">
       <div className="p-14 mt-3">
         <div className="font-thin text-xl mb-3">EDUCATION</div>
         <div className="flex flex-col">
@@ -11,7 +11,7 @@ function Education() {
             <span className="font-thin text-lg m-3">2019-2023</span>
             <p className="m-1 p-5">
               Currently Pursuing My Btech degree in Information Technology from
-              Gayatri Vidya Parishad College of Engineering,Visakhapatnam.
+              Gayatri Vidya Parishad College of Engineering.
             </p>
           </div>
           <div className="bg-slate-300 px-10 py-2 my-3 shadow-xl border-b-2 border-lime-600">
@@ -32,7 +32,7 @@ function Education() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
