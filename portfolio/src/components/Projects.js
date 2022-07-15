@@ -55,8 +55,8 @@ function Projects() {
             <h1 className="text-center m-4">LOAN APP</h1>
             <p className="p-5 font-serif">
               &nbsp; &nbsp;A MERN stack web application in which a authenticated
-              user after uploading his documents can request loan later the
-              admin can approve or reject the loan.
+              users can request the loan amount and other users can lend him the
+              money.
             </p>
             <h2 className="text-center text-lg font-italic">
               Reactjs, ExpressJS , MongoDB, Nodejs
